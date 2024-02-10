@@ -4,7 +4,7 @@ import os
 def setup() -> int:
   os.system('title Winunix Setup')
   print('{}WinUnix Setup'.format('*'*5,'*'*5))
-if 'win32' != sys.platfrom:
+if 'win32' != sys.platform:
   print('You cannot run this script on non-Win32 platforms.')
   sys.exit(-1)
 
