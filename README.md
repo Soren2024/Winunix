@@ -1,2 +1,0 @@
-# Winunix
-Unix style Windows.
